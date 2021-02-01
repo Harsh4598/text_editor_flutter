@@ -46,7 +46,7 @@ class _TextStyleEditorState extends State<TextStyleEditor> {
   @override
   void initState() {
     /// Set default TextStyle
-    print(widget.activeToolColor);
+
     _textStyle =
         widget.textStyle == null ? TextStyle(fontSize: 10.0) : widget.textStyle;
 
